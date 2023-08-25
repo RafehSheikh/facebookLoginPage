@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+:root{
+    /* --bgc: rgb(59, 89, 152); */
+    --bgc:  #4267b2;
+    --border:   1px solid darkblue
+}
+.header{
+    border: 4px solid black;
+    height: 100px;
+    background-color: var(--bgc);    
+    color: #fff;
+    border:  var(--border);
+}
+
+.logo{
+    display: inline-block;
+    width: 222px;
+    margin: 15px;
+    margin-left: 185px;
+    font-size: 3.5rem;
+}
+
+form{
+    width: 450px;
+    height: 95px;
+    float: right;
+    padding: 20px;
+    margin-right: 150px;
+    color:#4267b2;
+}
+input[class=text]{
+    float: right;
+    border:  var(--border);
+    margin: 20px 25px 0px -50px;
+    width: 150px;
+    height: 25px;
+}
+label{
+    float: right;
+    margin: 3px 75px 0px -173px;
+    width: 150px;
+    height: 25px;
+}
+.btn{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border:  var(--border);
+    background-color: var(--bgc);   
+    margin: 16px 180px;
+    width: 50px;
+    padding: 4px;
+}
+.left{
+    width: 50vw;
+    height: 50vw;
+    /* border: var(--border); */
+    position: absolute;
+    top: 15.25%;
+    left: 0%;
+    background: linear-gradient(white, #D3D8E8);
+
+}
+.left img{
+    color: black;
+    /* border: var(--border); */
+    height: 300px;
+    width: 632px;
+    margin-left: 34px;
+
+}
+.left p{
+    width: 300px;
+    height: 67px;
+    color: rgb(14, 56, 95);
+    /* border: var(--border); */
+    margin-top: 14px;
+    margin-left: 181px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.right{
+    width: 50vw;
+    height: 50vw;
+    /* border: var(--border); */
+    position: absolute;
+    top: 15.25%;
+    right: 0%;
+    background: linear-gradient(white, #D3D8E8);
+}
+.right h1,p{
+    color: rgb(14, 56, 95);
+    font-size: 1.5rem;
+}
+
+.right .name{
+    color: #D3D8E8;
+    margin: 4px;
+
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.formRight{
+    color: black;
+    font-size: 1.5rem;
+    /* width: 200px; */
+}
+.formRight h1{
+    margin-left: 7px;
+    font-size: 3rem;
+    width: 421px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid black; */
+}
+.formRight p{
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 7px;
+    font-size: 1.5rem;
+}
+.formRight #Email,#Pass{
+    margin: 8px;
+    width: 230px;
+    height: 40px ;
+    border: 2px solid black;
+    color: #4267b2;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.formRight .name{
+    color: #4267b2;
+    border: 2px solid black;
+    width: 230px;
+    height: 40px; 
+    margin: 8px 7px;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.formRight .gndr{
+    color: #4267b2;
+    /* display: block; */
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+.formRight .date{
+    width: 230px;
+    height: 40px ;
+    margin: 8px;
+    border: 2px solid black;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: black !important;
+
+}
+
+.formRight button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 8px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
